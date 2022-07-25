@@ -1,0 +1,42 @@
+.promo {
+	min-height: 712px;
+	padding: 51px 0;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 546px 661px;
+		column-gap: 143px;
+	}
+	&__content {
+		padding-top: 40px;
+	}
+
+	&__title {
+		position: relative;
+		&::after {
+			content: '';
+			position: absolute;
+			right: 0;
+			bottom: 25px;
+			width: 110px;
+			height: 110px;
+			background: url(../img/promo/buld.svg) 50%/cover no-repeat;
+		}
+	}
+	&__subtitle {
+		margin-top: 40px;
+	}
+	&__btn {
+		margin-top: 61px;
+	}
+	&__img {
+		width: 661px;
+		height: 661px;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	
+	}
+
+}

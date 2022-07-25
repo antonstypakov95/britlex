@@ -1,0 +1,39 @@
+.contact {
+	padding: 130px 0 133px 0;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 477px 810px;
+		column-gap: 111px;
+	}
+	&__content{
+		padding-top: 39px;
+	}
+	&__subtitle {
+		margin-top: 37px;
+		width: 776px;
+	}
+	&__form {
+		position: relative;
+		margin-top: 52px;
+		input {
+			margin-right: 12px;
+			width: 450px;
+			height: 80px;
+			padding-left: 33px;
+			border: 1px solid #8F95A5;
+			border-radius: 10px;
+		}
+	}
+	.error {
+		border: 1px solid red;
+		margin-bottom: 0;
+	}
+	label.error{
+		position: absolute;
+		bottom: -30px;
+    	left: 34px;
+		display: block;
+		border: none;
+		color:red;
+	}
+}

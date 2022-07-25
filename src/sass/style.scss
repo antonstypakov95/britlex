@@ -10,6 +10,28 @@
 	margin: 0;
 	padding: 0;
 }
+h1, h2, h3 {
+	margin-bottom: 0;
+}
+.container {
+	position: relative;
+	max-width: 1350px;
+	margin: 0 auto;
+}
 
+@import 'blocks/titles';
+@import 'blocks/btn';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/skills';
+@import 'blocks/about';
+@import 'blocks/pricing';
+@import 'blocks/contact';
+@import 'blocks/footer';
 
-
+.open {
+	display: none;
+	&.active {
+		display: block;
+	}
+}

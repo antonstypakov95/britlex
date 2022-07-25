@@ -1,0 +1,23 @@
+.about {
+	padding: 126px 0 94px 0;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 635px 500px;
+		justify-content: space-between;
+	}
+	&__content {
+		padding-top: 30px;
+	}
+	&__descr {
+		margin-top: 23px;
+	}
+	&__block {
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		text-align: center;
+	}
+
+}
