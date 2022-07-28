@@ -6,7 +6,7 @@
 		justify-content: space-between;
 	}
 	&__content {
-		padding-top: 30px;
+		padding-top: 45px;
 	}
 	&__descr {
 		margin-top: 23px;
@@ -19,5 +19,7 @@
 	&__item {
 		text-align: center;
 	}
-
+	&__title {
+		display: none;
+	}
 }

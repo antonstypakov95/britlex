@@ -1,9 +1,8 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/icofonts';
-// @import 'libs/animate.min';
 
-@import 'base/variables';
-@import 'base/mixins';
+
+
 
 * {
 	font-family: 'Poppins', sans-serif;
@@ -28,10 +27,11 @@ h1, h2, h3 {
 @import 'blocks/pricing';
 @import 'blocks/contact';
 @import 'blocks/footer';
+@import 'blocks/media';
 
-.open {
-	display: none;
-	&.active {
-		display: block;
-	}
-}
+// .open {
+// 	display: none;
+// 	&.active {
+// 		display: block;
+// 	}
+// }

@@ -5,6 +5,9 @@
 		grid-template-columns: 477px 810px;
 		column-gap: 111px;
 	}
+	&__title {
+		display: none;
+	}
 	&__content{
 		padding-top: 39px;
 	}
@@ -20,6 +23,7 @@
 			width: 450px;
 			height: 80px;
 			padding-left: 33px;
+			padding-right: 33px;
 			border: 1px solid #8F95A5;
 			border-radius: 10px;
 		}

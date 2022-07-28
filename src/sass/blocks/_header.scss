@@ -34,12 +34,17 @@
 		color: #263238;
 	}
 }
+
+.close {
+	display: none;
+}
 .menu {
 	display: flex;
 	list-style-type: none;
 	justify-content: space-between;
 	width: 520px;
 	margin-bottom: 0;
+	
 	&__list {
 		font-weight: 500;
 		font-size: 20px;
@@ -48,6 +53,23 @@
 		&:hover {
 			text-decoration: none;
 			color: #263238;
+		}
+	}
+}
+.hamburger {
+	display: none;
+	width: 42px;
+	height: 20px;
+	span {
+		display: block;
+		margin-bottom: 4px;
+		height: 4px;
+		width: 42px;
+		background-color: #000;
+		border-radius: 3px;
+		&.short {
+			width: 30px;
+			margin-bottom: 0;
 		}
 	}
 }
